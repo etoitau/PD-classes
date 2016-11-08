@@ -130,6 +130,6 @@ public class MovieClip extends Image {
 	}
 	
 	public interface Listener {
-		void onComplete( Animation anim );
+		void onComplete(Animation anim);
 	}
 }

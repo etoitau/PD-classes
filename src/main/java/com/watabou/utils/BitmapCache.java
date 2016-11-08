@@ -29,7 +29,7 @@ public class BitmapCache {
 
 	private static final String DEFAULT	= "__default";
 	
-	private static HashMap<String,Layer> layers = new HashMap<String, BitmapCache.Layer>();
+	private static HashMap<String,Layer> layers = new HashMap<String, Layer>();
 	
 	private static BitmapFactory.Options opts = new BitmapFactory.Options();
 	static {

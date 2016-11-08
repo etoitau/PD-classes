@@ -21,7 +21,7 @@ import java.util.LinkedList;
 
 public class Signal<T> {
 
-	private LinkedList<Listener<T>> listeners = new LinkedList<Signal.Listener<T>>();
+	private LinkedList<Listener<T>> listeners = new LinkedList<Listener<T>>();
 	
 	private boolean canceled;
 	
@@ -87,6 +87,6 @@ public class Signal<T> {
 	}
 	
 	public static interface Listener<T> {
-		public void onSignal( T t );
+		public void onSignal(T t);
 	}
 }

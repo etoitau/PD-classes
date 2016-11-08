@@ -21,12 +21,12 @@ import com.watabou.input.Touchscreen;
 import com.watabou.input.Touchscreen.Touch;
 import com.watabou.utils.Signal;
 
-public class TouchArea extends Visual implements Signal.Listener<Touchscreen.Touch> {
+public class TouchArea extends Visual implements Signal.Listener<Touch> {
 	
 	// Its target can be toucharea itself
 	public Visual target;
 	
-	protected Touchscreen.Touch touch = null;
+	protected Touch touch = null;
 	
 	public TouchArea( Visual target ) {
 		super( 0, 0, 0, 0 );
